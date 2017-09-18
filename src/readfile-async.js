@@ -9,7 +9,7 @@ var readFile = function (filePath) {
     })
 }
 
-var generator = async function () {
+var asyncReadFile = async function () {
     var file1 = await readFile('/etc/networks')
     var file2 = await readFile('/etc/shells')
     console.log(file1.toString())
@@ -17,4 +17,4 @@ var generator = async function () {
     console.log(file2.toString())
 }
 
-generator()
+asyncReadFile()
