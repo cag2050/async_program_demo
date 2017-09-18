@@ -1,6 +1,3 @@
-/**
- * Created by cag on 9/18/17.
- */
 const fetch = require('node-fetch')
 
 function* gen() {

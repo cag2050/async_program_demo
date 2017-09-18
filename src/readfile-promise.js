@@ -1,6 +1,3 @@
-/**
- * Created by cag on 9/18/17.
- */
 const readFile = require('fs-readfile-promise')
 console.log(readFile.toString())
 

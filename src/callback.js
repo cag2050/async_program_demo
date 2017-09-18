@@ -1,6 +1,3 @@
-/**
- * Created by cag on 9/18/17.
- */
 const fs = require('fs')
 
 // 如果未指定字符编码，则返回原始的 buffer。
