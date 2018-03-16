@@ -1,7 +1,7 @@
 const fs = require('fs')
 
 // 如果未指定字符编码，则返回原始的 buffer。
-fs.readFile('/etc/shells', 'utf8', (error, data) => {
+fs.readFile('1.txt', 'utf8', (error, data) => {
     console.log('error===:', error)
     if(error) throw error
     console.log('data===:\n', data)

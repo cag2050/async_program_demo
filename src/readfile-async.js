@@ -5,6 +5,7 @@ var readFile = function (filePath) {
         fs.readFile(filePath, 'utf8', (error, data) => {
             if (error) {
                 console.log('error')
+                console.log(typeof error)
                 console.log(error)
                 reject(error)
             }
